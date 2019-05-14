@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(33, 171, 226);
+    margin: 40px;
+}
+
+div.preto {
+    max-width: 90px;
+    max-height: 90px;
+    height: 100%;
+    width: 100%;
+    border: 3px solid;
+    border-color: black;
+    background-color: black;
+    border-radius: 4px;
+}
+
+div.branco {
+    width: 90px;
+    height: 90px;
+    border: 3px solid;
+    border-color: white;
+    background-color: white;
+    border-radius: 4px;
+}
+
+div.mae {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+}
